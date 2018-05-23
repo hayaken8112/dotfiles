@@ -92,7 +92,7 @@ function get-branch-status {
 }
 
 # alias
-alias ls='ls -aF'
+# alias ls='ls -aF'
 alias ll='ls -l'
 alias rm='rm -i'
 alias cp='cp -i'
