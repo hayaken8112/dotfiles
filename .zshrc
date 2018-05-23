@@ -100,7 +100,10 @@ alias mv='mv -i'
 alias vi='vim'
 alias cat='cat -n'
 alias less='less -NM'
-alias ls='ls -G'
+#alias ls='ls -G'
+alias ls='ls --color=auto'
+alias vi='nvim'
+alias vim='nvim'
 cdls ()
 {
     \cd "$@" && ls
